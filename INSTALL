@@ -42,6 +42,16 @@ Use following lines to install build dependencies on Ubuntu:
   apt-get install libssl-dev
   apt-get install libx264-dev
   apt-get install libvpx-dev
+  
+  worked for me and ubuntu 16.04 LTS
+  
+  sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install ffmpeg -y
+sudo apt-get install -y  build-essential flex bison autoconf automake pkg-config   libfreetype6-dev libjpeg62-dev libsofia-sip-ua-dev   libvpx-dev libx264-dev libav-tools libavcodec-dev libavutil-dev libsamplerate0-dev libopus-dev
+sudo apt-get install -y libav-extra libavcodec-extra libswscale-dev libssl-dev libtool libavformat-dev
+git clone git://github.com/muggot/openmcu.git ./openmcu-ru
+cd ./openmcu-ru
 
 
 
